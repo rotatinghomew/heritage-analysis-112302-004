@@ -1,0 +1,15 @@
+object,site,step,event,deadline,inspection,elapsed,status,receipt,material,batch,treatment_type,depends_on
+P1,A,inspect,2026-05-01,2026-05-04,I10,0,done,yes,bronze,B1,cleaning,
+P1,A,treat,2026-05-03,2026-05-09,I10,2,done,yes,bronze,B1,cleaning,inspect
+P1,B,recheck,2026-05-12,2026-05-16,I11,9,scheduled,,bronze,B1,cleaning,treat
+P2,A,inspect,2026-05-02,2026-05-04,I10,0,done,yes,bronze,B1,cleaning,
+P2,A,treat,2026-05-04,2026-05-10,I10,2,in_progress,,bronze,B1,cleaning,inspect
+P3,C,inspect,2026-05-01,2026-05-05,I12,0,done,yes,paper,,stabilisation,
+P3,C,treat,2026-05-05,2026-05-07,I12,2,done,no,paper,,stabilisation,inspect
+P3,C,recheck,2026-05-11,2026-05-13,I13,6,scheduled,,paper,,stabilisation,treat
+P4,D,inspect,2026-04-20,2026-04-25,I14,0,done,yes,textile,,fumigation,
+P4,D,treat,2026-04-24,2026-04-28,I14,4,done,yes,textile,,fumigation,inspect
+P4,D,recheck,,2026-05-02,I15,8,not_started,,textile,,fumigation,treat
+P5,A,inspect,2026-05-02,2026-05-05,I16,0,done,yes,paper,,deacidification,
+P5,A,treat,2026-05-05,2026-05-11,I16,3,in_progress,,paper,,deacidification,inspect
+P5,A,recheck,2026-05-15,2026-05-18,I17,10,scheduled,,paper,,deacidification,treat

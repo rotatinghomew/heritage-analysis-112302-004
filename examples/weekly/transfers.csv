@@ -1,0 +1,3 @@
+object,from_site,to_site,state,urgent,origin_confirmed,receiving_confirmed,returned_on,note
+P1,A,B,received,no,no,no,,P1 已在 B 馆接手
+P2,A,B,planned,yes,no,no,,P2 紧急转馆待双方确认

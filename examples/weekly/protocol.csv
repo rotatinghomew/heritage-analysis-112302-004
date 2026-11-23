@@ -1,0 +1,6 @@
+key,value
+quiet_min_days,4
+recheck_max_days,6
+recheck_urgency_days,2
+deadline_urgency_days,2
+horizon_days,14

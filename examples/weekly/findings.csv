@@ -1,0 +1,5 @@
+inspection,object,step,effect,days,limit_days,recheck,confirmed,finding_date,note
+I10,P2,inspect,shorten,2,4,no,yes,2026-05-03,检查发现缩短处置时限
+I11,,"",add_recheck,0,2,yes,yes,2026-05-11,复检发现只要求附加一次复检
+I12,P3,treat,shorten,,5,no,yes,2026-05-05,共享检查同时收紧 P3
+I14,P4,treat,reset,4,,no,yes,2026-04-25,实际处置完成后重置阶段时限
