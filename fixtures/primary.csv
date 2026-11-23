@@ -1,0 +1,6 @@
+object,site,step,event,deadline,inspection,elapsed,status
+O1,A,inspect,2026-05-01,2026-05-07,I1,0,done
+O1,A,treat,2026-05-04,2026-05-08,I1,3,in_progress
+O1,A,recheck,2026-05-08,2026-05-10,I2,4,scheduled
+O2,B,inspect,2026-05-01,2026-05-05,I3,0,done
+O2,B,treat,2026-05-05,2026-05-06,I3,4,missing
